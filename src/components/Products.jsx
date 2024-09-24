@@ -24,6 +24,7 @@ const Products = () => {
 
   return (
     <>
+      <h3>Script Test</h3>
       <Link to="/cart">
         <button>Cart</button>
       </Link>
