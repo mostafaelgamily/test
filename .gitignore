@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Ignore node_modules directory
+node_modules/
+
+# Ignore git.py file
+git.py
+
+# Ignore all .zip files
+*.zip
+
+# Ignore build directory
+/build/
+/dist/
+
+# Ignore logs
+logs
+*.log
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore cache and temporary files
+.cache/
+tmp/
+*.tmp
+.DS_Store
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
